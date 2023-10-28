@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+</head>
+<body>
+    <header>
+      <img src="https://pbs.twimg.com/profile_images/1443562653331374080/RsFksmgg_80x80.jpg" alt="Logo">
+    </header>
+    <h1>Application Form</h1>
+<small>Fill in your details</small>
+<form action="post">
+  <label for="firstname" id="firstname">First Name <span>*</span></label>
+  <input type="text" id="firstname" placeholder="Enter first name" required>
+  
+  <label for="lastname" id="lastname">Last Name <span>*</span></label>
+  <input type="text" id="lastname" placeholder="Enter last name" required>
+
+  <div>
+    <label for="gender" id="gender">Gender <span>*</span></label>
+    <select name="gender" id="gender" required>
+      <option value="select">Select gender</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Others">Others</option>
+    </select>
+    
+    <label for="Dob" id="Dob">Date of Birth <span>*</span></label>
+    <input type="date" id="Dob" required>
+  </div>
+
+  <div>
+    <label for="email" id="email">Email Address <span>*</span></label>
+    <input type="email" id="email" placeholder="Enter email address" required>
+
+    <label for="EducationalLevel" id="el">Educational Level <span>*</span></label>
+    <select name="EducationalLevel" id="el" required>
+      <option value="select">Select level of education</option>
+      <option value="Secondary">Secondary</option>
+      <option value="M.sc">M.sc</option>
+      <option value="B.sci">B.sci</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="country" id="country">Country <span>*</span></label>
+    <select name="country" id="country" required>
+      <option value="select">Select Your Country</option>
+      <option value="Nigeria">Nigeria</option>
+      <option value="Ghana">Ghana</option>
+      <option value="Others">Others</option>
+    </select>
+
+    <label for="State of Residence" id="sr">State/City of Residence <span>*</span></label>
+    <input type="text" id="sr" placeholder="Enter state of residence" required>
+  </div>
+
+  <div>
+    <label for="Employment" id="employment">Employment Status <span>*</span></label>
+    <select name="Employment" id="employment" required>
+      <option value="select">Select employment status</option>
+      <option value="employed">Employed</option>
+      <option value="un-employed">Unemployed</option>
+      <option value="self-employed">Self-employed</option>
+    </select>
+
+    <label for="tel" id="tel">Phone number <span>*</span></label>
+    <input type="tel" id="tel" placeholder="09100112211" required>
+  </div>
+
+  <div>
+    <label for="Choose School" id="school">Choose School <span>*</span></label>
+    <select name="School" id="school" required>
+      <option value="select">Select school</option>
+      <option value="School of Engineering">School of Engineering</option>
+      <option value="School of Data">School of Data</option>
+    </select>
+
+    <label for="course" id="course">Choose Course of Study <span>*</span></label>
+    <select name="course" id="course" required>
+      <option value="select">Select course</option>
+      <option value="Backend Engineering">Backend Engineering</option>
+      <option value="Data Analysis">Data Analysis</option>
+      <option value="Frontend Engineering">Frontend Engineering</option>
+      <option value="Data Science">Data Science</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="medium" id="medium">How did you hear about us? <span>*</span></label>
+    <select name="hearus" id="hearus" required>
+      <option value="select">Select channel</option>
+      <option value="fb">Facebook</option>
+      <option value="ig">Instagram</option>
+      <option value="X">Other</option>
+      <option value="Bb">Billboard</option>
+    </select>
+
+    <label for="discount">Scholarship/Discount Code (optional)</label>
+    <input type="text" id="discount" placeholder="Scholarship/Discount Code (optional)">
+  </div>
+
+  <div>
+    <label></label>
+    <p>By clicking continue, I agree to <a href="#">Terms of Use</a> and acknowledge that I have read the <a href="#">Privacy Policy.</a></p>
+  </div>
+
+  <div>
+    <button>Proceed</button>
+  </div>
+</form>
+</body>
+</html>
