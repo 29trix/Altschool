@@ -19,7 +19,7 @@ body {
   margin: 100px auto;
   padding: 30px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 25px;
  
 }
@@ -93,9 +93,26 @@ body {
   background: hsl(216, 59%, 17%);
   color: #fff;
 }
-
+/* Positioning cards */
+.taby{
+  grid-column: 1 / 3;
+  grid-row: 1 ;
+}
+.goody{
+  grid-column: 3 / 5;
+  grid-row: 1;
+}
+.sultan{
+  grid-column: 1;
+  grid-row: 2;
+}
+.ade{
+  grid-column: 2 / 4;
+  grid-row: 2;
+}
 footer {
   text-align: center;
+  margin-bottom: 50px;
 }
 /* 
 @media (max-width: 768px) {
