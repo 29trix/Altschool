@@ -15,9 +15,9 @@ body {
 
 /* container styling */
 .grid {
-  max-width: 1080px;
-  margin: 100px auto;
-  padding: 30px;
+  max-width: 920px;
+  margin: 10px auto;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
@@ -103,12 +103,17 @@ body {
   grid-row: 1;
 }
 .sultan{
-  grid-column: 1;
-  grid-row: 2;
-}
-.ade{
   grid-column: 2 / 4;
   grid-row: 2;
+  height: fit-content;
+}
+.ade{
+  grid-column: 4 / 5;
+  grid-row: 2;
+  height: fit-content;
+}
+.alt{
+  grid-column: 1;
 }
 footer {
   text-align: center;
